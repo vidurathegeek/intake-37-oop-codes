@@ -40,6 +40,9 @@ public class Rectangle {
         this.width = sSide;
         this.length = sSide;
     }
+    public void lol(){
+        System.out.println("LOL");
+    }
 }
 
 //FOC 35th vidurathegeek
