@@ -6,6 +6,7 @@ public class Rectangle {
     private double length;
     private String color;
     private boolean filled;
+    private double side;
     
     public Rectangle(){
         width = 0.0;
@@ -28,6 +29,16 @@ public class Rectangle {
     public String toString(){
         String lol = "Rectangle";
         return lol;
+    }
+    
+    public double getSide(){
+        return side;
+    }
+    
+    public void setSide(double sSide){
+        this.side = sSide;
+        this.width = sSide;
+        this.length = sSide;
     }
     
 }
