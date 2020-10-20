@@ -32,10 +32,12 @@ public class Square extends Rectangle {
         this.sFilled = rFilled;
     }
     
+    @Override
     public double getSide(){
         return side;
     }
     
+    @Override
     public void setSide(double sSide){
         this.side = sSide;
         this.width = sSide;
