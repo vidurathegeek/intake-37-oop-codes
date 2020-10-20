@@ -40,7 +40,6 @@ public class Rectangle {
         this.width = sSide;
         this.length = sSide;
     }
-    
 }
 
 //FOC 35th vidurathegeek

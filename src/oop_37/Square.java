@@ -67,6 +67,10 @@ public class Square extends Rectangle {
         perimeter = 4*side;
         System.out.println("Perimeter is: " + perimeter);
     }
+    
+    public void lol(){
+        System.out.println("LOL");
+    }
 }
 
 //FOC 35th vidurathegeek

@@ -11,9 +11,12 @@ public class Oop_37 {
         double side = scan.nextDouble();
         
         Square sqc = new Square(side);
+        
         sqc.showSet();
         sqc.getArea();
         sqc.getPerimeter();
+        sqc.lol();
+        
         String lol = sqc.toString();
         System.out.println(lol);
     }
